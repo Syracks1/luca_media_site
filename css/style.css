@@ -1,0 +1,127 @@
+* {
+  font-family: Arial, Helvetica, Sans-Serif;
+  margin: 0;
+  padding: 0; }
+
+.menu_bar {
+  background-color: #212121;
+  list-style: none;
+  overflow: hidden; }
+
+.menu_bar a {
+  float: right;
+  color: #ffed29;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline; }
+  @media screen and (max-width: 500px) {
+    .menu_bar a {
+      padding-right: 15%;
+      width: 50px;
+      margin-right: 8%; } }
+
+.menu_bar a:hover {
+  background-color: #ffed29;
+  color: #212121; }
+
+.menu_bar a:active {
+  background-color: #ffed29;
+  color: #212121; }
+
+.homescreen {
+  background-image: url(../img/bg/bg_daytonabeach_bw_light.png);
+  background-size: cover;
+  height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.homescreen_name {
+  color: #ffed29;
+  -webkit-filter: drop-shadow(1px 5px 5px #2c2c2c);
+  filter: drop-shadow(1px 5px 5px #2c2c2c);
+  text-align: center; }
+  @media screen and (max-width: 500px) {
+    .homescreen_name {
+      font-size: 50px; } }
+  @media screen and (min-width: 450px) {
+    .homescreen_name {
+      font-size: 75px; } }
+  @media screen and (min-width: 800px) {
+    .homescreen_name {
+      font-size: 100px; } }
+
+.homescreen_description {
+  color: #ffed26;
+  -webkit-filter: drop-shadow(1px 5px 5px #2c2c2c);
+  filter: drop-shadow(1px 5px 5px #2c2c2c);
+  text-align: center; }
+  @media screen and (max-width: 500px) {
+    .homescreen_description {
+      font-size: 10px; } }
+  @media screen and (min-width: 450px) {
+    .homescreen_description {
+      font-size: 15px; } }
+  @media screen and (min-width: 800px) {
+    .homescreen_description {
+      font-size: 20px; } }
+
+.profile_photo {
+  heigth: 250px;
+  width: 250px;
+  border-radius: 50%;
+  -webkit-filter: drop-shadow(1px 5px 5px #2c2c2c);
+  filter: drop-shadow(1px 5px 5px #2c2c2c);
+  margin-bottom: 45px; }
+
+.logo {
+  height: 40px;
+  width: 40px;
+  float: left;
+  color: #ffed29;
+  margin-top: 7px;
+  padding: 10px;
+  padding-left: 15px; }
+  @media screen and (max-width: 500px) {
+    .logo {
+      height: 50%;
+      width: 50%;
+      margin-left: 20%; } }
+
+.photo_class {
+  display: block;
+  background-color: #fff;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  -webkit-filter: drop-shadow(1px 5px 5px #2c2c2c);
+  filter: drop-shadow(1px 5px 5px #2c2c2c); }
+
+.photo_sub {
+  text-align: center;
+  padding: 10px 20px; }
+
+.photo {
+  display: block;
+  height: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  opacity: 0.8; }
+
+.photo:hover {
+  opacity: 1.2; }
